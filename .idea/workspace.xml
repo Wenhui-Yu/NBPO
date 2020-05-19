@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d610e0c4-7856-4cf1-86e3-a6f7553cb2bb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/experiment_baseline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/experiment_baseline.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_BPO.py" beforeDir="false" afterPath="$PROJECT_DIR$/_BPO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_BPR.py" beforeDir="false" afterPath="$PROJECT_DIR$/_BPR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_NBPO.py" beforeDir="false" afterPath="$PROJECT_DIR$/_NBPO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_NBPOo.py" beforeDir="false" afterPath="$PROJECT_DIR$/_NBPOo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_NBPOs.py" beforeDir="false" afterPath="$PROJECT_DIR$/_NBPOs.py" afterDir="false" />
     </list>
     <ignored path="experiment_baseline.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,6 +19,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/code$_NBPOo.coverage" NAME="_NBPOo Coverage Results" MODIFIED="1589873522462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$_NBPO.coverage" NAME="_NBPO Coverage Results" MODIFIED="1589873520280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -19,24 +30,7 @@
     <favorites_list name="experiment_baseline" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_BPO.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-              <folding>
-                <element signature="e#1463#1606#0" />
-                <element signature="e#1634#2747#0" />
-                <element signature="e#2775#5504#0" />
-                <element signature="e#5533#5893#0" />
-                <element signature="e#6310#6618#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,21 +78,21 @@
         <option value="$PROJECT_DIR$/_MSE.py" />
         <option value="$PROJECT_DIR$/data_process/data_process.py" />
         <option value="$PROJECT_DIR$/data_process/data_collection.py" />
-        <option value="$PROJECT_DIR$/_NBPOs.py" />
-        <option value="$PROJECT_DIR$/_NBPOo.py" />
-        <option value="$PROJECT_DIR$/_BPR.py" />
         <option value="$PROJECT_DIR$/_ItemKNN.py" />
         <option value="$PROJECT_DIR$/_MP.py" />
         <option value="$PROJECT_DIR$/_NBPO.py" />
+        <option value="$PROJECT_DIR$/_NBPOo.py" />
+        <option value="$PROJECT_DIR$/_NBPOs.py" />
         <option value="$PROJECT_DIR$/_BPO.py" />
+        <option value="$PROJECT_DIR$/_BPR.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1943" />
-    <option name="height" value="1043" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="55" />
+    <option name="y" value="1512" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -106,7 +100,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -114,7 +118,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -133,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data_process">
+  <component name="RunManager" selected="Python._NBPOo">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,11 +275,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._NBPOo" />
+        <item itemvalue="Python._NBPO" />
         <item itemvalue="Python.data_process" />
         <item itemvalue="Python._NBPOs" />
-        <item itemvalue="Python._NBPOo" />
         <item itemvalue="Python.data_collection" />
-        <item itemvalue="Python._NBPO" />
       </list>
     </recent_temporary>
   </component>
@@ -290,25 +293,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542677367807</updated>
-      <workItem from="1589859467444" duration="187000" />
+      <workItem from="1589859467444" duration="876000" />
+      <workItem from="1589873261510" duration="305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187000" />
+    <option name="totallyTimeSpent" value="1181000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1295" height="695" extended-state="0" />
-    <editor active="true" />
+    <frame x="165" y="1488" width="1296" height="696" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16572352" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16801292" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5790671" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5780142" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45099542" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -317,11 +318,13 @@
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,33 +380,8 @@
     <entry file="file://$PROJECT_DIR$/备份/1.5/_PMF.py" />
     <entry file="file://$PROJECT_DIR$/_MSE.py" />
     <entry file="file://E:/_experiment_NBPO/备份/1.1/_NBPO0.py" />
-    <entry file="file://$PROJECT_DIR$/_BPR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="e#6301#6609#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_process/data_collection.py" />
     <entry file="file://$PROJECT_DIR$/_ItemKNN.py" />
-    <entry file="file://$PROJECT_DIR$/_NBPOo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1835">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#1219#1237#0" expanded="true" />
-            <element signature="e#1605#1748#0" expanded="false" />
-            <element signature="e#1776#2889#0" expanded="false" />
-            <element signature="e#2917#6551#0" expanded="false" />
-            <element signature="e#6580#6978#0" expanded="false" />
-            <element signature="e#7395#7755#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_MP.py" />
     <entry file="file://$PROJECT_DIR$/Library.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -415,44 +393,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_NBPOs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2624">
-          <caret line="214" selection-start-line="214" selection-end-line="214" />
-          <folding>
-            <element signature="e#1611#1754#0" expanded="false" />
-            <element signature="e#1782#2895#0" expanded="false" />
-            <element signature="e#2923#6569#0" expanded="false" />
-            <element signature="e#6598#6996#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data_process/data_process.py" />
     <entry file="file://$PROJECT_DIR$/_NBPO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="52">
+          <caret line="162" column="28" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="28" />
           <folding>
-            <element signature="e#1626#1769#0" expanded="false" />
-            <element signature="e#1797#2910#0" expanded="false" />
-            <element signature="e#2938#6538#0" expanded="false" />
-            <element signature="e#6567#6965#0" expanded="false" />
-            <element signature="e#7383#7743#0" expanded="false" />
+            <element signature="e#1626#1769#0" />
+            <element signature="e#1797#2910#0" />
+            <element signature="e#6567#6965#0" />
+            <element signature="e#7383#7743#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_process/data_process.py" />
+    <entry file="file://$PROJECT_DIR$/_NBPOo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
+          <folding>
+            <element signature="e#1219#1237#0" expanded="true" />
+            <element signature="e#1605#1748#0" />
+            <element signature="e#1776#2889#0" />
+            <element signature="e#6580#6978#0" />
+            <element signature="e#7395#7755#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_NBPOs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="164" column="18" selection-start-line="164" selection-start-column="18" selection-end-line="164" selection-end-column="18" />
+          <folding>
+            <element signature="e#1611#1754#0" />
+            <element signature="e#1782#2895#0" />
+            <element signature="e#6598#6996#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_BPO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="219">
+          <caret line="146" column="18" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_BPR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="95" column="10" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
           <folding>
-            <element signature="e#1463#1606#0" />
-            <element signature="e#1634#2747#0" />
-            <element signature="e#2775#5504#0" />
-            <element signature="e#5533#5893#0" />
-            <element signature="e#6310#6618#0" />
+            <element signature="e#6301#6609#0" />
           </folding>
         </state>
       </provider>

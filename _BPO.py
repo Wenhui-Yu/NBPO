@@ -5,7 +5,7 @@
 ## Parameters setting
 dataset = 0                         # datasets, 0 for Amazon, 1 for movielens
 eta = [0.05, 0.01][dataset]         # learning rate
-lambda_r = [2, 1][dataset]          # coefficient of regularization term
+lambda_r = [1, 1][dataset]          # coefficient of regularization term
 K0 = 50                             # length of latent factors
 vali_test = 0                       # 0 for validation set, 1 for test set
 sample_rate = 4                     # sample rate, the number of negative samples foreach positive one
@@ -144,7 +144,7 @@ def train_Model(eta):
                 Fmax = F1[0]
             F1_df.loc[ep + 1] = F1  
             NDCG_df.loc[ep + 1] = NDCG  
-            print Fmax, 'F1: ', F1, '  ', 'NDCG: ', NDCG
+            print 'F1: ', F1, '  ', 'NDCG: ', NDCG
             save_df([[F1_df, 'F1'], [NDCG_df, 'NDCG']], path_excel, first_sheet=False)  # @x
         else:
             break

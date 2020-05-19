@@ -162,7 +162,7 @@ def train_Model(eta):
                 Fmax = F1[0]
             F1_df.loc[ep + 1] = F1
             NDCG_df.loc[ep + 1] = NDCG
-            print Fmax, 'F1: ', F1, '  ', 'NDCG: ', NDCG
+            print 'F1: ', F1, '  ', 'NDCG: ', NDCG
             save_df([[F1_df, 'F1'], [NDCG_df, 'NDCG']], path_excel, first_sheet=False)  # @x
         else:
             break

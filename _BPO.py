@@ -11,7 +11,7 @@ vali_test = 0                       # 0 for validation set, 1 for test set
 sample_rate = 4                     # sample rate, the number of negative samples foreach positive one
 batch_size = 5000                   # batch size
 epoch = 200                         # number of epochs
-top_k = [2, 5, 10, 20, 50, 100]          # top k items to recommend
+top_k = [2, 5, 10, 20, 50, 100]     # top k items to recommend
 Model = 'BPO'
 ## Paths to save and read
 # list for datasets

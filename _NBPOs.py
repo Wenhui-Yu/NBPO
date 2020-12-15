@@ -126,8 +126,8 @@ def train_Model(eta):
                     # train data, [u, i]
                     u = train_data[re][0]
                     i = train_data[re][1]
-                    Ri = d(np.dot(U[u], V[i]))
-                    gammai = d(np.dot(P[u], Q[i]))
+                    Ri = np.dot(U[u], V[i])
+                    gammai = np.dot(P[u], Q[i])
                     # select negative samples randomly
                     num = 0
                     while num < sample_rate:
@@ -135,8 +135,8 @@ def train_Model(eta):
                         # check if the current sample is positive sample
                         if not (j in train_data_aux[u]):
                             num += 1
-                            Rj = d(np.dot(U[u], V[j]))
-                            gammaj = d(np.dot(P[u], Q[j]))
+                            Rj = np.dot(U[u], V[j])
+                            gammaj = np.dot(P[u], Q[j])
                             D = d(-gammai) * d(Ri) * d(-Ri)
                             dU[u] += D * V[i]
                             dV[i] += D * U[u]
